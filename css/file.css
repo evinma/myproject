@@ -1,0 +1,368 @@
+.file {
+    width: 744px;
+}
+
+.file_fir {
+    width: 744px;
+    height: 39px;
+    background: #f6f6f6;
+}
+
+.file_fir li {
+    float: left;
+    padding: 7px 20px;
+    width: 72px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    border-top: 3px solid #f6f6f6;
+}
+
+.file_fir li.select {
+    border-color: #00b38a;
+    background: white;
+}
+
+.file_sec, .selectDiv, .group {
+    width: 744px;
+}
+
+.selectDiv {
+    display: none;
+}
+
+.f1 {
+    float: left;
+}
+
+.group_l {
+    width: 744px;
+    height: 123px;
+    overflow: hidden;
+    border-bottom: 1px dashed #e1e1e1;
+}
+
+.l_top {
+    width: 729px;
+    height: 62px;
+    padding: 22px 0 0 15px;
+}
+
+.l_top_l {
+    width: 400px;
+    height: 62px;
+    margin-right: 20px;
+}
+
+.l_top_bt {
+    width: 400px;
+    height: 34px;
+}
+
+.l_top_bt h2 {
+    height: 22px;
+}
+
+.l_top_bt a {
+    display: inline-block;
+    height: 22px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #00b38a;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.l_top_bt a span {
+    font-size: 16px;
+}
+
+.l_top_bt span {
+    color: #999;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.l_top_con {
+    width: 400px;
+    height: 22px;
+}
+
+.l_top_con span {
+    font-size: 16px;
+    color: #fa6041;
+    margin-right: 20px;
+}
+
+.l_top_r {
+    width: 309px;
+    height: 62px;
+}
+
+.r_top_bt {
+    width: 294px;
+    height: 34px;
+}
+
+.r_top_bt a {
+    color: #00b38a;
+    font-size: 16px;
+}
+
+.r_top_con {
+    width: 294px;
+    height: 28px;
+    letter-spacing: 2px;
+}
+
+.l_btm {
+    width: 744px;
+    height: 39px;
+    background: #fafafa;
+}
+
+.l_btm_l {
+    padding: 0 20px 0 15px;
+    width: 400px;
+    height: 39px;
+    line-height: 39px;
+    letter-spacing: 2px;
+}
+
+.l_btm_r {
+    width: 309px;
+    height: 39px;
+}
+
+.l_btm_r span {
+    display: inline-block;
+    padding: 0 3px;
+    margin-right: 10px;
+    border: 1px solid #dcdcdc;
+    margin-top: 8px;
+}
+
+.more {
+    font-size: 16px;
+    width: 64px;
+    color: #fff;
+    background: #00b38a url("../img/group_more.png") no-repeat 88px center;
+    padding: 5px 40px 5px 15px;
+    margin: 25px 0 0 625px;
+    display: block;
+}
+
+.friend {
+    width: 744px;
+    padding: 15px 0 0;
+    margin-top: 40px;
+    border-top: 1px solid #ececed;
+    overflow: hidden;
+}
+
+.backTop {
+    width: 28px;
+    height: 64px;
+    position: fixed;
+    left: 50%;
+    margin-left: 548px;
+    bottom: 140px;
+    display: none;
+    background: url("../img/backtop.png") left top no-repeat;
+}
+
+.feedback {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    left: 50%;
+    margin-left: 538px;
+    bottom: 80px;
+    cursor: pointer;
+}
+
+.feedback_img {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    background: url("../img/feedback.png") no-repeat 0 0;
+}
+
+.feedback span {
+    font-size: 12px;
+    color: #555;
+
+}
+
+.bt_login {
+    width: 100%;
+    height: 64px;
+    position: fixed;
+    bottom: 1000px;
+    z-index: 1000;
+    background: url(http://pstatic.lagou.com/www/static/common/widgets/login_toolbar/img/footerbar_repeat_c5aebac.png) repeat-x;
+}
+
+.bt_login_tab {
+    position: relative;
+    width: 1024px;
+    height: 57px;
+    margin: 0 auto;
+}
+
+.bt_login_tab em {
+    position: absolute;
+    top: -54px;
+    left: -110px;
+    width: 95px;
+    height: 54px;
+    background: url("../img/bot1.png") no-repeat;
+}
+
+.bt_login_tab img {
+    position: absolute;
+    top: 10px;
+    left: -110px;
+}
+
+.bt_login_tab_sec {
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 100;
+    margin: 20px 0 0 294px;
+    padding-right: 33px;
+    height: 30px;
+    background: url("../img/botgs.png") no-repeat right 16px;
+}
+
+.bt_login_tab span i {
+    display: inline-block;
+    width: 20px;
+    height: 30px;
+    background: url("../img/bot_num.png") no-repeat 0 0;
+}
+
+.bt_login_tab span b {
+    display: inline-block;
+    width: 9px;
+    height: 30px;
+    background: url("../img/bot_J.png") center bottom no-repeat;
+}
+
+.bt_login_tab_thr {
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 100;
+    margin: 20px 0 0 60px;
+    padding-right: 33px;
+    height: 30px;
+    background: url("../img/botgs.png") right bottom no-repeat;
+}
+
+.bt_login_tab_login {
+    display: inline-block;
+    height: 64px;
+    position: absolute;
+    left: 790px;
+    padding: 0 46px;
+    background: url("../img/bot_login.png") repeat-x;
+}
+
+.bt_login_tab_login:hover {
+    background: #00b38a;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.bt_login_tab_login i {
+    display: inline-block;
+    width: 50px;
+    height: 64px;
+    background: url("../img/bot_logins.png") left center no-repeat;
+}
+
+.bt_login_tab_right {
+    width: 1024px;
+    height: 64px;
+    position: absolute;
+    left: 932px;
+    top: 0;
+    background: url("../img/bot_right.png") repeat-x;
+}
+
+.bt_login_tab_right a {
+    display: inline-block;
+    height: 64px;
+    padding: 0 46px;
+}
+
+.bt_login_tab_right a:hover {
+    background: indianred;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.bt_login_tab_right a i {
+    display: inline-block;
+    width: 120px;
+    height: 64px;
+    background: url("../img/bot_rights.png") left center no-repeat;
+}
+
+
+.temp{
+    clear: both;
+    width: 100%;
+    height: 68px;
+}
+.load{
+    clear: both;
+    width: 100%;
+    height: 60px;
+}
+.load_inner{
+    margin: 0 auto;
+    width: 1024px;
+    height: 60px;
+    position: relative;
+}
+.load_inner_img{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 198px;
+    height: 19px;
+    display: block;
+    background: url("../img/load.png") no-repeat 0 0;
+}
+.load_inner_top{
+    padding-top: 12px;
+    float: right;
+    height: 14px;
+    line-height: 14px;
+    white-space: normal;
+}
+.load_inner_top a{
+    float: left;
+    margin-right: 15px;
+    color: #555;
+}
+.load_hot{
+    position: relative;
+    padding-right: 33px;
+    display: block;
+}
+.load_hot span{
+    position: absolute;
+    top: -2px;
+    right: 0;
+    display: block;
+    width: 30px;
+    height: 16px;
+    margin-left: 3px;
+    background: url("../img/loadhot.png") no-repeat;
+    overflow: hidden;
+}
